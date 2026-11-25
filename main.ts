@@ -1,7 +1,7 @@
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const STORY = "Bot Fixed Wi-Fi; House Went Dark";
+const STORY = "Dad 'Fixed' Wi-Fi; We're Offline";
 
 if (STORY.length !== 32) {
   throw new Error("Story must be exactly 32 characters.");
